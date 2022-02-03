@@ -4,3 +4,6 @@
 [submodule "sampling_based_control"]
 	path = sampling_based_control
 	url = git@github.com:ethz-asl/sampling_based_control.git
+[submodule "object_keypoints"]
+	path = object_keypoints
+	url = git@github.com:ethz-asl/object_keypoints.git
