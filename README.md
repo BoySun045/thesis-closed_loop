@@ -43,6 +43,7 @@
   - need to use ordered pointcloud, or get the 3D pose from depth image, currently trying the later one
 - ❌ Visualize stage_cost In Rviz
 - ❌ Change Table geometry to be identical with the real setup
+- ❌ Add a customed cpp msgs package, in kp wrapper, and include in the object modelling pkg
 
 ## 🧐 About <a name = "about"></a>
 
