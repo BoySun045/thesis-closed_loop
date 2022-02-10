@@ -39,11 +39,13 @@
 ## 📝 TODO <a name = "TODO"></a>
 
 - ✅ Visualize the 2D keypoins in heatmap image
-- ❌ Adding the depth & pointcloud via "/camera/aligned_depth_to_color/image_raw" topic from RealSense ROS Wrapper
-  - need to use ordered pointcloud, or get the 3D pose from depth image, currently trying the later one
 - ❌ Visualize stage_cost In Rviz
 - ❌ Change Table geometry to be identical with the real setup
-- ❌ Add a customed cpp msgs package, in kp wrapper, and include in the object modelling pkg
+- ❌ Adding the depth & pointcloud via "/camera/aligned_depth_to_color/image_raw" topic from RealSense ROS Wrapper
+  - need to use ordered pointcloud, or get the 3D pose from depth image, currently trying the later one
+    - ❌ Visualize the depth bbox via a heuristic first in visulization_msg node
+
+- ✅ Add a customed cpp msgs package, in kp wrapper, and include in the object modelling pkg
 
 ## 🧐 About <a name = "about"></a>
 
