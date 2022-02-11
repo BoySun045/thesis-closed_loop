@@ -41,14 +41,16 @@
 - ✅ Visualize the 2D keypoins in heatmap image
 - ❌ Visualize stage_cost In Rviz
 - ❌ Change Table geometry to be identical with the real setup
-- ❌ Adding the depth & pointcloud via "/camera/aligned_depth_to_color/image_raw" topic from RealSense ROS Wrapper
+- ✅ Adding the depth & pointcloud via "/camera/aligned_depth_to_color/image_raw" topic from RealSense ROS Wrapper
   - need to use ordered pointcloud, or get the 3D pose from depth image, currently trying the later one
-    - ❌ Visualize the depth bbox via a heuristic first in visulization_msg node
+    - ✅ Visualize the depth bbox via a heuristic first in visulization_msg node
+      - This is hard-coded for a static scene now
 
 - ✅ Add a customed cpp msgs package, in kp wrapper, and include in the object modelling pkg
 - ❌ Add a process to deal with the invalid keypoint in modelling pkg 
-  - ❌ Having bug in primitive frame calculating in modelling pkg
+- ❌ Having bug in primitive frame calculating in modelling pkg
 - ❌ Seperate out the modelling pkg from the sampling-based-controller
+
 ## 🧐 About <a name = "about"></a>
 
 Write about 1-2 paragraphs describing the purpose of your project.
