@@ -46,7 +46,7 @@
     - ❌ Visualize the depth bbox via a heuristic first in visulization_msg node
 
 - ✅ Add a customed cpp msgs package, in kp wrapper, and include in the object modelling pkg
-
+- ❌ Add a process to deal with the invalid keypoint in modelling pkg 
 ## 🧐 About <a name = "about"></a>
 
 Write about 1-2 paragraphs describing the purpose of your project.
