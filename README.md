@@ -47,6 +47,8 @@
 
 - ✅ Add a customed cpp msgs package, in kp wrapper, and include in the object modelling pkg
 - ❌ Add a process to deal with the invalid keypoint in modelling pkg 
+  - ❌ Having bug in primitive frame calculating in modelling pkg
+- ❌ Seperate out the modelling pkg from the sampling-based-controller
 ## 🧐 About <a name = "about"></a>
 
 Write about 1-2 paragraphs describing the purpose of your project.
