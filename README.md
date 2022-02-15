@@ -50,6 +50,7 @@
 - ❌ Add a process to deal with the invalid keypoint in modelling pkg 
 - ❌ Having bug in primitive frame calculating in modelling pkg
 - ❌ Seperate out the modelling pkg from the sampling-based-controller
+- ❌ Merge boysun two branches in keypoint_traker
 
 ## 🧐 About <a name = "about"></a>
 
