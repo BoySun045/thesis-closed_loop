@@ -39,16 +39,20 @@
 ## 📝 TODO <a name = "TODO"></a>
 
 - ✅ Visualize the 2D keypoins in heatmap image
-- ❌ Visualize stage_cost In Rviz
-- ❌ Change Table geometry to be identical with the real setup
 - ✅ Adding the depth & pointcloud via "/camera/aligned_depth_to_color/image_raw" topic from RealSense ROS Wrapper
   - need to use ordered pointcloud, or get the 3D pose from depth image, currently trying the later one
-    - ✅ Visualize the depth bbox via a heuristic first in visulization_msg node
+  - ✅ Visualize the depth bbox via a heuristic first in visulization_msg node
       - This is hard-coded for a static scene now
-
+- ✅ Having bug in primitive frame calculating in modelling pkg
+  - Solved currently by just normalizing it
+- ✅ Apply Ransac for Object Primitive Fitting
+  - ✅ Single Object Done
+  - ❌ Multiple Object Undone, and the current modelling is infinite cylinder, need to be finite
 - ✅ Add a customed cpp msgs package, in kp wrapper, and include in the object modelling pkg
+- ❌ Move the customed Object msg out of manipulation_msgs, into a seperate msg pkg
 - ❌ Add a process to deal with the invalid keypoint in modelling pkg 
-- ❌ Having bug in primitive frame calculating in modelling pkg
+- ❌ Visualize stage_cost In Rviz
+- ❌ Change Table geometry to be identical with the real setup
 - ❌ Seperate out the modelling pkg from the sampling-based-controller
 - ❌ Merge boysun two branches in keypoint_traker
 
