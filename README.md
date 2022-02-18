@@ -47,7 +47,9 @@
   - Solved currently by just normalizing it
 - ✅ Apply Ransac for Object Primitive Fitting
   - ✅ Single Object Done
-  - ❌ Multiple Object Undone, and the current modelling is infinite cylinder, need to be finite
+  - ✅ The current modelling is infinite cylinder, need to be finite
+  - ❌ Multiple Object Undone
+    - The vars need to be put in std::vector
 - ✅ Add a customed cpp msgs package, in kp wrapper, and include in the object modelling pkg
 - ❌ Move the customed Object msg out of manipulation_msgs, into a seperate msg pkg
 - ❌ Add a process to deal with the invalid keypoint in modelling pkg 
