@@ -51,6 +51,7 @@
   - ❌ Multiple Object Undone
     - The vars need to be put in std::vector
 - ✅ Add a customed cpp msgs package, in kp wrapper, and include in the object modelling pkg
+- ❌ Use another cost function, which penalize more for small error but less for large error, e.g. log + huber
 - ❌ Move the customed Object msg out of manipulation_msgs, into a seperate msg pkg
 - ❌ Add a process to deal with the invalid keypoint in modelling pkg 
 - ❌ Visualize stage_cost In Rviz
