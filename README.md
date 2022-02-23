@@ -58,6 +58,9 @@
 - ❌ Change Table geometry to be identical with the real setup
 - ❌ Seperate out the modelling pkg from the sampling-based-controller
 - ❌ Merge boysun two branches in keypoint_traker
+- ❌ Check diff of two branches on sampling_based_controller repo
+- ❌ A TODO is left in modelling pkg, specifically how to deal with the missing keypoints
+- ❌ Check the state published by modelling pkg, and adapt to the real_controller
 
 ## 🧐 About <a name = "about"></a>
 
