@@ -49,9 +49,10 @@
   - ✅ Single Object Done
   - ✅ The current modelling is infinite cylinder, need to be finite
   - ❌ Multiple Object Undone
+    - URDF is created with URDF, .obj from [phobos](https://github.com/dfki-ric/phobos/wiki)
     - The vars need to be put in std::vector
 - ✅ Add a customed cpp msgs package, in kp wrapper, and include in the object modelling pkg
-- ❌ Use another cost function, which penalize more for small error but less for large error, e.g. log + huber
+- ✅ Use another cost function, which penalize more for small error but less for large error, e.g. log + huber
 - ❌ Move the customed Object msg out of manipulation_msgs, into a seperate msg pkg
 - ❌ Add a process to deal with the invalid keypoint in modelling pkg 
 - ❌ Visualize stage_cost In Rviz
@@ -61,6 +62,7 @@
 - ❌ Check diff of two branches on sampling_based_controller repo
 - ❌ A TODO is left in modelling pkg, specifically how to deal with the missing keypoints
 - ❌ Check the state published by modelling pkg, and adapt to the real_controller
+- ❌ No way to check if there's intersaction in raisim when doing remove-add 
 
 ## 🧐 About <a name = "about"></a>
 
