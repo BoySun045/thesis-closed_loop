@@ -48,7 +48,7 @@
 - ✅ Apply Ransac for Object Primitive Fitting
   - ✅ Single Object Done
   - ✅ The current modelling is infinite cylinder, need to be finite
-  - ❌ Multiple Object Undone
+  - [In progress] Multiple Object Undone
     - URDF is created with URDF, .obj from [phobos](https://github.com/dfki-ric/phobos/wiki)
     - The vars need to be put in std::vector
 - ✅ Add a customed cpp msgs package, in kp wrapper, and include in the object modelling pkg
