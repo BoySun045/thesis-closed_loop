@@ -53,11 +53,14 @@
     - The vars need to be put in std::vector
 - ✅ Add a customed cpp msgs package, in kp wrapper, and include in the object modelling pkg
 - ✅ Use another cost function, which penalize more for small error but less for large error, e.g. log + huber
+- ❌ Seperate out the modelling pkg from the sampling-based-controller
+- ❌ Filter out far pointcloud to accelerate the search
+- ❌ Keep a single object version for test
+
 - ❌ Move the customed Object msg out of manipulation_msgs, into a seperate msg pkg
 - ❌ Add a process to deal with the invalid keypoint in modelling pkg 
 - ❌ Visualize stage_cost In Rviz
 - ❌ Change Table geometry to be identical with the real setup
-- ❌ Seperate out the modelling pkg from the sampling-based-controller
 - ❌ Merge boysun two branches in keypoint_traker
 - ❌ Check diff of two branches on sampling_based_controller repo
 - ❌ A TODO is left in modelling pkg, specifically how to deal with the missing keypoints
